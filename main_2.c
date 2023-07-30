@@ -90,8 +90,6 @@ int main ( int argc , char* argv [ ] )
 
 	frequenz = SAMPLINGRATE / ( zweites_minima - erstes_minima ) ;
 
-	printf ( "Erstes Minima: %d\n" , erstes_minima ) ;
-	printf ( "Zweites Minima: %d\n" , zweites_minima ) ;
 	printf ( "Die Frequenz beträgt: %.2f Hz\n" , frequenz ) ;
 
 	return 0 ;
