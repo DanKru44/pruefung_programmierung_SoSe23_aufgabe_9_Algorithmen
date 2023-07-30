@@ -5,6 +5,10 @@ Diese Programme beinhalten die Implementierten Algorithmen der Aufgabe 9.
 In diesen sollen Oszilloskop Kurven ausgewertet werden.
 Dies soll einmal die Bestimmung der Samplingrate für eine Oszilloskop Kurve mit bekannter Frequenz geschehen und in dem nächsten Fall die Frequenz bei bekannter Samplingrate. 
 
+Das Programm main_1.c ist dafür die Datei 50Hz_sinus.csv zu verarbeiten und aus dieser dessen Messwerte die Samplingrate zu ermitteln.
+
+Das Programm main_2.c verwendet hingegen die ermittelte Samplingrate um die Frequenz der Messreihe aus der Datei sinus_unknown.csv zu ermitteln.
+
 ## Kompilation 
 Das Programm kann einfach mit einem beliebigen Compiler kompiliert werden. Ich habe dafür gcc verwendet.
 
